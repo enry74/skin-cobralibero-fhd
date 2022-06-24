@@ -765,6 +765,14 @@ THIS SKIN IS COPYRIGHT PROTECTED AND IS FOR VU+ OpenPLi IMAGES ONLY.
     <widget noWrap="1" backgroundColor="background" font="Regular; 50" render="Label" position="264,450" size="110,60" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="unffc435">
       <convert type="MSNWeather">temperature_current</convert>
     </widget>
+    <eLabel name="new eLabel" position="36,620" size="70,40" font="Regular; 26" transparent="1" halign="left" text="max." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 28" render="Label" position="95,620" size="90,40" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="une5b243">
+      <convert type="MSNWeather">temperature_high,day1</convert>
+    </widget>
+    <eLabel name="new eLabel" position="200,620" size="70,40" font="Regular; 26" transparent="1" halign="left" text="min." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 28" render="Label" position="250,620" size="90,40" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="unffc435">
+      <convert type="MSNWeather">temperature_low,day1</convert>
+    </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 45" render="Label" position="32,665" size="314,60" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="un80ffff">
       <convert type="MSNWeather">temperature_text,current</convert>
     </widget>
@@ -813,6 +821,14 @@ THIS SKIN IS COPYRIGHT PROTECTED AND IS FOR VU+ OpenPLi IMAGES ONLY.
     </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 50" render="Label" position="264,450" size="110,60" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="unffc435">
       <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <eLabel name="new eLabel" position="36,620" size="70,40" font="Regular; 26" transparent="1" halign="left" text="max." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 28" render="Label" position="95,620" size="90,40" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="une5b243">
+      <convert type="MSNWeather">temperature_high,day1</convert>
+    </widget>
+    <eLabel name="new eLabel" position="200,620" size="70,40" font="Regular; 26" transparent="1" halign="left" text="min." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 28" render="Label" position="250,620" size="90,40" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="unffc435">
+      <convert type="MSNWeather">temperature_low,day1</convert>
     </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 45" render="Label" position="32,665" size="314,60" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="un80ffff">
       <convert type="MSNWeather">temperature_text,current</convert>
@@ -867,6 +883,14 @@ THIS SKIN IS COPYRIGHT PROTECTED AND IS FOR VU+ OpenPLi IMAGES ONLY.
     <widget noWrap="1" backgroundColor="background" font="Regular; 30" render="Label" position="190,555" size="110,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="unffc435">
       <convert type="MSNWeather">temperature_current</convert>
     </widget>
+    <eLabel name="new eLabel" position="30,648" size="80,30" font="Regular; 24" transparent="1" halign="left" text="max." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="104,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="une5b243">
+      <convert type="MSNWeather">temperature_high,day1</convert>
+    </widget>
+    <eLabel name="new eLabel" position="200,648" size="63,30" font="Regular; 24" transparent="1" halign="left" text="min." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="274,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="un80ffff">
+      <convert type="MSNWeather">temperature_low,day1</convert>
+    </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 24" render="Label" position="30,690" size="314,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="grey">
       <convert type="MSNWeather">temperature_text,current</convert>
     </widget>
@@ -912,6 +936,14 @@ THIS SKIN IS COPYRIGHT PROTECTED AND IS FOR VU+ OpenPLi IMAGES ONLY.
     <widget noWrap="1" backgroundColor="background" font="Regular; 30" render="Label" position="190,555" size="110,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="unffc435">
       <convert type="MSNWeather">temperature_current</convert>
     </widget>
+    <eLabel name="new eLabel" position="30,648" size="80,30" font="Regular; 24" transparent="1" halign="left" text="max." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="104,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="une5b243">
+      <convert type="MSNWeather">temperature_high,day1</convert>
+    </widget>
+    <eLabel name="new eLabel" position="200,648" size="63,30" font="Regular; 24" transparent="1" halign="left" text="min." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="274,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="un80ffff">
+      <convert type="MSNWeather">temperature_low,day1</convert>
+    </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 24" render="Label" position="30,690" size="314,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="grey">
       <convert type="MSNWeather">temperature_text,current</convert>
     </widget>
@@ -933,6 +965,14 @@ THIS SKIN IS COPYRIGHT PROTECTED AND IS FOR VU+ OpenPLi IMAGES ONLY.
     </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 30" render="Label" position="190,555" size="110,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="unffc435">
       <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <eLabel name="new eLabel" position="30,648" size="80,30" font="Regular; 24" transparent="1" halign="left" text="max." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="104,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="une5b243">
+      <convert type="MSNWeather">temperature_high,day1</convert>
+    </widget>
+    <eLabel name="new eLabel" position="200,648" size="63,30" font="Regular; 24" transparent="1" halign="left" text="min." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="274,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="un80ffff">
+      <convert type="MSNWeather">temperature_low,day1</convert>
     </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 24" render="Label" position="30,690" size="314,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="grey">
       <convert type="MSNWeather">temperature_text,current</convert>
@@ -956,6 +996,14 @@ THIS SKIN IS COPYRIGHT PROTECTED AND IS FOR VU+ OpenPLi IMAGES ONLY.
     <widget noWrap="1" backgroundColor="background" font="Regular; 30" render="Label" position="190,555" size="110,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="unffc435">
       <convert type="MSNWeather">temperature_current</convert>
     </widget>
+    <eLabel name="new eLabel" position="30,648" size="80,30" font="Regular; 24" transparent="1" halign="left" text="max." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="104,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="une5b243">
+      <convert type="MSNWeather">temperature_high,day1</convert>
+    </widget>
+    <eLabel name="new eLabel" position="200,648" size="63,30" font="Regular; 24" transparent="1" halign="left" text="min." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="274,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="un80ffff">
+      <convert type="MSNWeather">temperature_low,day1</convert>
+    </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 24" render="Label" position="30,690" size="314,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="grey">
       <convert type="MSNWeather">temperature_text,current</convert>
     </widget>
@@ -977,6 +1025,14 @@ THIS SKIN IS COPYRIGHT PROTECTED AND IS FOR VU+ OpenPLi IMAGES ONLY.
     </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 30" render="Label" position="190,555" size="110,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="unffc435">
       <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <eLabel name="new eLabel" position="30,648" size="80,30" font="Regular; 24" transparent="1" halign="left" text="max." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="104,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="une5b243">
+      <convert type="MSNWeather">temperature_high,day1</convert>
+    </widget>
+    <eLabel name="new eLabel" position="200,648" size="63,30" font="Regular; 24" transparent="1" halign="left" text="min." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="274,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="un80ffff">
+      <convert type="MSNWeather">temperature_low,day1</convert>
     </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 24" render="Label" position="30,690" size="314,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="grey">
       <convert type="MSNWeather">temperature_text,current</convert>
@@ -1094,6 +1150,14 @@ THIS SKIN IS COPYRIGHT PROTECTED AND IS FOR VU+ OpenPLi IMAGES ONLY.
     </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 30" render="Label" position="190,555" size="110,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="unffc435">
       <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <eLabel name="new eLabel" position="30,648" size="80,30" font="Regular; 24" transparent="1" halign="left" text="max." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="104,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="une5b243">
+      <convert type="MSNWeather">temperature_high,day1</convert>
+    </widget>
+    <eLabel name="new eLabel" position="200,648" size="63,30" font="Regular; 24" transparent="1" halign="left" text="min." zPosition="3" foregroundColor="grey" />
+    <widget noWrap="1" backgroundColor="background" font="Regular; 23" render="Label" position="274,650" size="70,30" source="session.MSNWeather" zPosition="3" halign="left" transparent="1" foregroundColor="un80ffff">
+      <convert type="MSNWeather">temperature_low,day1</convert>
     </widget>
     <widget noWrap="1" backgroundColor="background" font="Regular; 24" render="Label" position="30,690" size="314,40" source="session.MSNWeather" zPosition="3" halign="center" transparent="1" foregroundColor="grey">
       <convert type="MSNWeather">temperature_text,current</convert>
@@ -3234,9 +3298,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="mode" position="880,720" size="200,40" font="Regular; 28" halign="right" />
   </screen>
   <!-- Volumebar -->
-  <screen name="Volume" position="center,38" size="750,45" zPosition="10" title="Volume" flags="wfNoBorder">
-    <ePixmap position="0,0" size="750,45" pixmap="dmm-FHD.mod/volbg.png" />
-    <widget name="Volume" position="63,18" size="629,11" zPosition="1" pixmap="dmm-FHD.mod/progress_small.png" transparent="1" />
+  <screen name="Volume" title="Volume" position="5,145" size="30,328" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
+    <ePixmap pixmap="dmm-FHD.mod/vol_box.png" position="0,303" size="30,24" alphatest="blend" zPosition="4" />
+    <widget name="Volume" pixmap="dmm-FHD.mod/volumeslider.png" position="1,0" size="30,300" orientation="orBottomToTop" transparent="1" zPosition="1">
+    </widget>
   </screen>
   <!-- WebIf Config -->
   <screen name="WebIfConfigScreen" position="center,180" size="1230,780" title="Webinterface: Main Setup">
